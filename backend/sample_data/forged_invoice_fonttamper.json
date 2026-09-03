@@ -1,0 +1,174 @@
+{
+  "document_type": "invoice",
+  "width": 800,
+  "height": 1000,
+  "vendor": "WILLIAMS GROUP",
+  "client": "Tina Trujillo",
+  "items": [
+    {
+      "description": "Security Audit & Vulnerability Assessment",
+      "quantity": 1,
+      "unit_price": 950.0,
+      "line_total": 950.0
+    },
+    {
+      "description": "Database Migration & Schema Optimization",
+      "quantity": 1,
+      "unit_price": 1350.0,
+      "line_total": 1350.0
+    }
+  ],
+  "subtotal": 2300.0,
+  "tax_amount": 189.75,
+  "grand_total": 2489.75,
+  "fields": {
+    "invoice_number": {
+      "label": "INVOICE NUMBER",
+      "value": "INV-2010-1693",
+      "bbox": [
+        520,
+        75,
+        750,
+        95
+      ],
+      "norm_bbox": [
+        0.65,
+        0.075,
+        0.9375,
+        0.095
+      ]
+    },
+    "vendor_name": {
+      "label": "VENDOR NAME",
+      "value": "WILLIAMS GROUP",
+      "bbox": [
+        50,
+        40,
+        450,
+        70
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.04,
+        0.5625,
+        0.07
+      ]
+    },
+    "client_name": {
+      "label": "CLIENT NAME",
+      "value": "Tina Trujillo",
+      "bbox": [
+        50,
+        178,
+        300,
+        196
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.178,
+        0.375,
+        0.196
+      ]
+    },
+    "issue_date": {
+      "label": "ISSUE DATE",
+      "value": "2026-08-26",
+      "bbox": [
+        520,
+        95,
+        750,
+        115
+      ],
+      "norm_bbox": [
+        0.65,
+        0.095,
+        0.9375,
+        0.115
+      ]
+    },
+    "due_date": {
+      "label": "DUE DATE",
+      "value": "2026-09-23",
+      "bbox": [
+        520,
+        115,
+        750,
+        135
+      ],
+      "norm_bbox": [
+        0.65,
+        0.115,
+        0.9375,
+        0.135
+      ]
+    },
+    "subtotal": {
+      "label": "SUBTOTAL",
+      "value": "$2,300.00",
+      "bbox": [
+        660,
+        407,
+        760,
+        427
+      ],
+      "norm_bbox": [
+        0.825,
+        0.407,
+        0.95,
+        0.427
+      ]
+    },
+    "tax_amount": {
+      "label": "TAX AMOUNT",
+      "value": "$189.75",
+      "bbox": [
+        660,
+        432,
+        760,
+        452
+      ],
+      "norm_bbox": [
+        0.825,
+        0.432,
+        0.95,
+        0.452
+      ]
+    },
+    "total_amount": {
+      "label": "TOTAL AMOUNT",
+      "value": "$2,489.75",
+      "bbox": [
+        640,
+        462,
+        770,
+        505
+      ],
+      "norm_bbox": [
+        0.8,
+        0.462,
+        0.9625,
+        0.505
+      ]
+    }
+  },
+  "is_authentic": false,
+  "attack_type": "font_tamper",
+  "doc_id": "forged_invoice_fonttamper",
+  "tampered_field": "vendor_name",
+  "original_value": "WILLIAMS GROUP",
+  "forged_value": "ALEXANDER VANDERBILT",
+  "severity": "medium",
+  "attack_region_bbox": [
+    50,
+    40,
+    450,
+    70
+  ],
+  "norm_attack_bbox": [
+    0.0625,
+    0.04,
+    0.5625,
+    0.07
+  ],
+  "anomaly_reason": "Font mismatch & typographic variance detected on field 'vendor_name' (stroke width, kerning, and typeface inconsistency)."
+}

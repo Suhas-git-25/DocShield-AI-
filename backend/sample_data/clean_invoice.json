@@ -1,0 +1,157 @@
+{
+  "document_type": "invoice",
+  "width": 800,
+  "height": 1000,
+  "vendor": "BRYANT, HIGGINS AND NAVARRO",
+  "client": "Theresa Montgomery",
+  "items": [
+    {
+      "description": "Database Migration & Schema Optimization",
+      "quantity": 2,
+      "unit_price": 1350.0,
+      "line_total": 2700.0
+    },
+    {
+      "description": "Cloud Infrastructure Architecture & Provisioning",
+      "quantity": 3,
+      "unit_price": 1200.0,
+      "line_total": 3600.0
+    }
+  ],
+  "subtotal": 6300.0,
+  "tax_amount": 519.75,
+  "grand_total": 6819.75,
+  "fields": {
+    "invoice_number": {
+      "label": "INVOICE NUMBER",
+      "value": "INV-1984-4520",
+      "bbox": [
+        520,
+        75,
+        750,
+        95
+      ],
+      "norm_bbox": [
+        0.65,
+        0.075,
+        0.9375,
+        0.095
+      ]
+    },
+    "vendor_name": {
+      "label": "VENDOR NAME",
+      "value": "BRYANT, HIGGINS AND NAVARRO",
+      "bbox": [
+        50,
+        40,
+        450,
+        70
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.04,
+        0.5625,
+        0.07
+      ]
+    },
+    "client_name": {
+      "label": "CLIENT NAME",
+      "value": "Theresa Montgomery",
+      "bbox": [
+        50,
+        178,
+        300,
+        196
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.178,
+        0.375,
+        0.196
+      ]
+    },
+    "issue_date": {
+      "label": "ISSUE DATE",
+      "value": "2026-05-27",
+      "bbox": [
+        520,
+        95,
+        750,
+        115
+      ],
+      "norm_bbox": [
+        0.65,
+        0.095,
+        0.9375,
+        0.115
+      ]
+    },
+    "due_date": {
+      "label": "DUE DATE",
+      "value": "2026-09-10",
+      "bbox": [
+        520,
+        115,
+        750,
+        135
+      ],
+      "norm_bbox": [
+        0.65,
+        0.115,
+        0.9375,
+        0.135
+      ]
+    },
+    "subtotal": {
+      "label": "SUBTOTAL",
+      "value": "$6,300.00",
+      "bbox": [
+        660,
+        407,
+        760,
+        427
+      ],
+      "norm_bbox": [
+        0.825,
+        0.407,
+        0.95,
+        0.427
+      ]
+    },
+    "tax_amount": {
+      "label": "TAX AMOUNT",
+      "value": "$519.75",
+      "bbox": [
+        660,
+        432,
+        760,
+        452
+      ],
+      "norm_bbox": [
+        0.825,
+        0.432,
+        0.95,
+        0.452
+      ]
+    },
+    "total_amount": {
+      "label": "TOTAL AMOUNT",
+      "value": "$6,819.75",
+      "bbox": [
+        640,
+        462,
+        770,
+        505
+      ],
+      "norm_bbox": [
+        0.8,
+        0.462,
+        0.9625,
+        0.505
+      ]
+    }
+  },
+  "is_authentic": true,
+  "attack_type": null,
+  "doc_id": "clean_invoice"
+}

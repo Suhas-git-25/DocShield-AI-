@@ -1,0 +1,192 @@
+{
+  "document_type": "passport",
+  "width": 750,
+  "height": 520,
+  "country": "SERBIA",
+  "fields": {
+    "last_name": {
+      "label": "SURNAME / NOM",
+      "value": "HARRISON",
+      "bbox": [
+        250,
+        80,
+        700,
+        116
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.1538,
+        0.9333,
+        0.2231
+      ]
+    },
+    "first_name": {
+      "label": "GIVEN NAMES / PRENOMS",
+      "value": "Paul",
+      "bbox": [
+        250,
+        120,
+        700,
+        156
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.2308,
+        0.9333,
+        0.3
+      ]
+    },
+    "nationality": {
+      "label": "NATIONALITY / NATIONALITE",
+      "value": "SERBIA",
+      "bbox": [
+        250,
+        160,
+        470,
+        196
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.3077,
+        0.6267,
+        0.3769
+      ]
+    },
+    "dob": {
+      "label": "DATE OF BIRTH / DATE DE NAISSANCE",
+      "value": "25/02/1974",
+      "bbox": [
+        480,
+        160,
+        700,
+        196
+      ],
+      "norm_bbox": [
+        0.64,
+        0.3077,
+        0.9333,
+        0.3769
+      ]
+    },
+    "sex": {
+      "label": "SEX / SEXE",
+      "value": "F",
+      "bbox": [
+        250,
+        200,
+        350,
+        236
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.3846,
+        0.4667,
+        0.4538
+      ]
+    },
+    "place_of_birth": {
+      "label": "PLACE OF BIRTH / LIEU DE NAISSANCE",
+      "value": "LAKE RAYMOND",
+      "bbox": [
+        370,
+        200,
+        700,
+        236
+      ],
+      "norm_bbox": [
+        0.4933,
+        0.3846,
+        0.9333,
+        0.4538
+      ]
+    },
+    "issue_date": {
+      "label": "DATE OF ISSUE / DATE DE DELIVRANCE",
+      "value": "24/02/2020",
+      "bbox": [
+        250,
+        240,
+        470,
+        276
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.4615,
+        0.6267,
+        0.5308
+      ]
+    },
+    "expiry_date": {
+      "label": "DATE OF EXPIRY / DATE D'EXPIRATION",
+      "value": "22/04/2033",
+      "bbox": [
+        480,
+        240,
+        700,
+        276
+      ],
+      "norm_bbox": [
+        0.64,
+        0.4615,
+        0.9333,
+        0.5308
+      ]
+    },
+    "authority": {
+      "label": "AUTHORITY / AUTORITE",
+      "value": "SER PASSPORT OFFICE",
+      "bbox": [
+        250,
+        280,
+        700,
+        316
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.5385,
+        0.9333,
+        0.6077
+      ]
+    },
+    "passport_number": {
+      "label": "PASSPORT NUMBER",
+      "value": "P96541007",
+      "bbox": [
+        260,
+        48,
+        450,
+        75
+      ],
+      "norm_bbox": [
+        0.3467,
+        0.0923,
+        0.6,
+        0.1442
+      ]
+    }
+  },
+  "photo_box": [
+    40,
+    80,
+    220,
+    320
+  ],
+  "is_authentic": false,
+  "attack_type": "splicing",
+  "doc_id": "forged_passport_spliced",
+  "splice_subtype": "photo_swap",
+  "severity": "medium",
+  "attack_region_bbox": [
+    40,
+    80,
+    220,
+    320
+  ],
+  "norm_attack_bbox": [
+    0.0533,
+    0.1538,
+    0.2933,
+    0.6154
+  ],
+  "anomaly_reason": "Spliced foreign element (photo_swap) detected at region [40, 80, 220, 320] with edge boundary discrepancy."
+}

@@ -1,0 +1,177 @@
+{
+  "document_type": "passport",
+  "width": 750,
+  "height": 520,
+  "country": "CAMEROON",
+  "fields": {
+    "last_name": {
+      "label": "SURNAME / NOM",
+      "value": "HOWARD",
+      "bbox": [
+        250,
+        80,
+        700,
+        116
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.1538,
+        0.9333,
+        0.2231
+      ]
+    },
+    "first_name": {
+      "label": "GIVEN NAMES / PRENOMS",
+      "value": "Erica",
+      "bbox": [
+        250,
+        120,
+        700,
+        156
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.2308,
+        0.9333,
+        0.3
+      ]
+    },
+    "nationality": {
+      "label": "NATIONALITY / NATIONALITE",
+      "value": "CAMEROON",
+      "bbox": [
+        250,
+        160,
+        470,
+        196
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.3077,
+        0.6267,
+        0.3769
+      ]
+    },
+    "dob": {
+      "label": "DATE OF BIRTH / DATE DE NAISSANCE",
+      "value": "27/05/1998",
+      "bbox": [
+        480,
+        160,
+        700,
+        196
+      ],
+      "norm_bbox": [
+        0.64,
+        0.3077,
+        0.9333,
+        0.3769
+      ]
+    },
+    "sex": {
+      "label": "SEX / SEXE",
+      "value": "F",
+      "bbox": [
+        250,
+        200,
+        350,
+        236
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.3846,
+        0.4667,
+        0.4538
+      ]
+    },
+    "place_of_birth": {
+      "label": "PLACE OF BIRTH / LIEU DE NAISSANCE",
+      "value": "SOUTH KELLY",
+      "bbox": [
+        370,
+        200,
+        700,
+        236
+      ],
+      "norm_bbox": [
+        0.4933,
+        0.3846,
+        0.9333,
+        0.4538
+      ]
+    },
+    "issue_date": {
+      "label": "DATE OF ISSUE / DATE DE DELIVRANCE",
+      "value": "28/04/2023",
+      "bbox": [
+        250,
+        240,
+        470,
+        276
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.4615,
+        0.6267,
+        0.5308
+      ]
+    },
+    "expiry_date": {
+      "label": "DATE OF EXPIRY / DATE D'EXPIRATION",
+      "value": "27/06/2034",
+      "bbox": [
+        480,
+        240,
+        700,
+        276
+      ],
+      "norm_bbox": [
+        0.64,
+        0.4615,
+        0.9333,
+        0.5308
+      ]
+    },
+    "authority": {
+      "label": "AUTHORITY / AUTORITE",
+      "value": "CAM PASSPORT OFFICE",
+      "bbox": [
+        250,
+        280,
+        700,
+        316
+      ],
+      "norm_bbox": [
+        0.3333,
+        0.5385,
+        0.9333,
+        0.6077
+      ]
+    },
+    "passport_number": {
+      "label": "PASSPORT NUMBER",
+      "value": "A92673461",
+      "bbox": [
+        260,
+        48,
+        450,
+        75
+      ],
+      "norm_bbox": [
+        0.3467,
+        0.0923,
+        0.6,
+        0.1442
+      ]
+    }
+  },
+  "photo_box": [
+    40,
+    80,
+    220,
+    320
+  ],
+  "is_authentic": true,
+  "attack_type": null,
+  "doc_id": "clean_passport"
+}

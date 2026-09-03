@@ -1,0 +1,185 @@
+{
+  "document_type": "invoice",
+  "width": 800,
+  "height": 1000,
+  "vendor": "MILLER LTD",
+  "client": "Amber Howard",
+  "items": [
+    {
+      "description": "Security Audit & Vulnerability Assessment",
+      "quantity": 1,
+      "unit_price": 950.0,
+      "line_total": 950.0
+    },
+    {
+      "description": "Custom ML Model Fine-Tuning & Evaluation",
+      "quantity": 2,
+      "unit_price": 800.0,
+      "line_total": 1600.0
+    },
+    {
+      "description": "Cloud Infrastructure Architecture & Provisioning",
+      "quantity": 2,
+      "unit_price": 2400.0,
+      "line_total": 4800.0
+    }
+  ],
+  "subtotal": 7350.0,
+  "tax_amount": 606.38,
+  "grand_total": 7956.38,
+  "fields": {
+    "invoice_number": {
+      "label": "INVOICE NUMBER",
+      "value": "INV-1985-2291",
+      "bbox": [
+        520,
+        75,
+        750,
+        95
+      ],
+      "norm_bbox": [
+        0.65,
+        0.075,
+        0.9375,
+        0.095
+      ]
+    },
+    "vendor_name": {
+      "label": "VENDOR NAME",
+      "value": "MILLER LTD",
+      "bbox": [
+        50,
+        40,
+        450,
+        70
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.04,
+        0.5625,
+        0.07
+      ]
+    },
+    "client_name": {
+      "label": "CLIENT NAME",
+      "value": "Amber Howard",
+      "bbox": [
+        50,
+        178,
+        300,
+        196
+      ],
+      "norm_bbox": [
+        0.0625,
+        0.178,
+        0.375,
+        0.196
+      ]
+    },
+    "issue_date": {
+      "label": "ISSUE DATE",
+      "value": "2026-07-26",
+      "bbox": [
+        520,
+        95,
+        750,
+        115
+      ],
+      "norm_bbox": [
+        0.65,
+        0.095,
+        0.9375,
+        0.115
+      ]
+    },
+    "due_date": {
+      "label": "DUE DATE",
+      "value": "2026-09-15",
+      "bbox": [
+        520,
+        115,
+        750,
+        135
+      ],
+      "norm_bbox": [
+        0.65,
+        0.115,
+        0.9375,
+        0.135
+      ]
+    },
+    "subtotal": {
+      "label": "SUBTOTAL",
+      "value": "$7,350.00",
+      "bbox": [
+        660,
+        443,
+        760,
+        463
+      ],
+      "norm_bbox": [
+        0.825,
+        0.443,
+        0.95,
+        0.463
+      ]
+    },
+    "tax_amount": {
+      "label": "TAX AMOUNT",
+      "value": "$606.38",
+      "bbox": [
+        660,
+        468,
+        760,
+        488
+      ],
+      "norm_bbox": [
+        0.825,
+        0.468,
+        0.95,
+        0.488
+      ]
+    },
+    "total_amount": {
+      "label": "TOTAL AMOUNT",
+      "value": "$7,956.38",
+      "bbox": [
+        640,
+        498,
+        770,
+        541
+      ],
+      "norm_bbox": [
+        0.8,
+        0.498,
+        0.9625,
+        0.541
+      ]
+    }
+  },
+  "is_authentic": false,
+  "attack_type": "metadata_tamper",
+  "doc_id": "forged_invoice_metadata",
+  "severity": "medium",
+  "tamper_software": "GIMP 2.10.34",
+  "exif_flags": {
+    "Software": "GIMP 2.10.34",
+    "ModifyDate": "2026:08:15 14:22:01",
+    "OriginalDate": "2024:02:10 09:15:30",
+    "CameraModel": "Scanner / Virtual Device",
+    "ColorProfileMismatch": true
+  },
+  "attack_region_bbox": [
+    0,
+    0,
+    800,
+    1000
+  ],
+  "norm_attack_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "anomaly_reason": "Disallowed editing software signature identified in metadata: 'GIMP 2.10.34' with timestamp inconsistency."
+}

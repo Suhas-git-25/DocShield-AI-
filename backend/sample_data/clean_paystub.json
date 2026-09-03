@@ -1,0 +1,111 @@
+{
+  "document_type": "paystub",
+  "width": 800,
+  "height": 950,
+  "employer": "WIGGINS LTD",
+  "employee": "Jeanne Smith",
+  "gross_pay": 4900.0,
+  "total_deductions": 1354.85,
+  "net_pay": 3545.15,
+  "fields": {
+    "employer_name": {
+      "label": "EMPLOYER NAME",
+      "value": "WIGGINS LTD",
+      "bbox": [
+        55,
+        42,
+        450,
+        70
+      ],
+      "norm_bbox": [
+        0.0688,
+        0.0442,
+        0.5625,
+        0.0737
+      ]
+    },
+    "employee_name": {
+      "label": "EMPLOYEE NAME",
+      "value": "Jeanne Smith",
+      "bbox": [
+        55,
+        130,
+        350,
+        150
+      ],
+      "norm_bbox": [
+        0.0688,
+        0.1368,
+        0.4375,
+        0.1579
+      ]
+    },
+    "pay_date": {
+      "label": "PAY DATE",
+      "value": "08/20/2026",
+      "bbox": [
+        520,
+        45,
+        750,
+        65
+      ],
+      "norm_bbox": [
+        0.65,
+        0.0474,
+        0.9375,
+        0.0684
+      ]
+    },
+    "gross_pay": {
+      "label": "GROSS PAY",
+      "value": "$4,900.00",
+      "bbox": [
+        60,
+        400,
+        200,
+        425
+      ],
+      "norm_bbox": [
+        0.075,
+        0.4211,
+        0.25,
+        0.4474
+      ]
+    },
+    "total_deductions": {
+      "label": "TOTAL DEDUCTIONS",
+      "value": "$1,354.85",
+      "bbox": [
+        280,
+        400,
+        450,
+        425
+      ],
+      "norm_bbox": [
+        0.35,
+        0.4211,
+        0.5625,
+        0.4474
+      ]
+    },
+    "net_pay": {
+      "label": "NET PAY",
+      "value": "$3,545.15",
+      "bbox": [
+        540,
+        397,
+        750,
+        430
+      ],
+      "norm_bbox": [
+        0.675,
+        0.4179,
+        0.9375,
+        0.4526
+      ]
+    }
+  },
+  "is_authentic": true,
+  "attack_type": null,
+  "doc_id": "clean_paystub"
+}

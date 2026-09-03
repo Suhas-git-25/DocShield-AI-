@@ -1,0 +1,145 @@
+{
+  "document_type": "id_card",
+  "width": 750,
+  "height": 480,
+  "country": "MOZAMBIQUE",
+  "fields": {
+    "full_name": {
+      "label": "SURNAME / GIVEN NAMES",
+      "value": "KERR, Melanie",
+      "bbox": [
+        240,
+        95,
+        690,
+        137
+      ],
+      "norm_bbox": [
+        0.32,
+        0.1979,
+        0.92,
+        0.2854
+      ]
+    },
+    "id_number": {
+      "label": "NATIONAL ID NO.",
+      "value": "578-149-9249",
+      "bbox": [
+        240,
+        145,
+        480,
+        187
+      ],
+      "norm_bbox": [
+        0.32,
+        0.3021,
+        0.64,
+        0.3896
+      ]
+    },
+    "dob": {
+      "label": "DATE OF BIRTH",
+      "value": "13 MAY 1992",
+      "bbox": [
+        500,
+        145,
+        700,
+        187
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.3021,
+        0.9333,
+        0.3896
+      ]
+    },
+    "gender": {
+      "label": "SEX",
+      "value": "F",
+      "bbox": [
+        240,
+        195,
+        330,
+        237
+      ],
+      "norm_bbox": [
+        0.32,
+        0.4062,
+        0.44,
+        0.4938
+      ]
+    },
+    "nationality": {
+      "label": "NATIONALITY",
+      "value": "MOZ",
+      "bbox": [
+        350,
+        195,
+        480,
+        237
+      ],
+      "norm_bbox": [
+        0.4667,
+        0.4062,
+        0.64,
+        0.4938
+      ]
+    },
+    "issue_date": {
+      "label": "DATE OF ISSUE",
+      "value": "21 SEP 2021",
+      "bbox": [
+        500,
+        195,
+        700,
+        237
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.4062,
+        0.9333,
+        0.4938
+      ]
+    },
+    "expiry_date": {
+      "label": "DATE OF EXPIRY",
+      "value": "23 AUG 2032",
+      "bbox": [
+        240,
+        245,
+        480,
+        287
+      ],
+      "norm_bbox": [
+        0.32,
+        0.5104,
+        0.64,
+        0.5979
+      ]
+    },
+    "mrz": {
+      "label": "MRZ CHECKSUM ZONE",
+      "value": "I<MOZKERR<<Melanie<<<<<<<<<<<<<<<<<<\n5781499249<8MOZ8501017F2812314<<<<<<",
+      "bbox": [
+        20,
+        360,
+        730,
+        460
+      ],
+      "norm_bbox": [
+        0.0267,
+        0.75,
+        0.9733,
+        0.9583
+      ]
+    }
+  },
+  "photo_box": [
+    40,
+    95,
+    210,
+    315
+  ],
+  "is_authentic": true,
+  "attack_type": null,
+  "doc_id": "clean_id_card"
+}

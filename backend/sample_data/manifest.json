@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "clean_id_card.png",
+    "document_type": "id_card",
+    "is_authentic": true,
+    "attack_type": null,
+    "anomaly_reason": null,
+    "path": "backend/sample_data\\clean_id_card.png"
+  },
+  {
+    "filename": "clean_passport.png",
+    "document_type": "passport",
+    "is_authentic": true,
+    "attack_type": null,
+    "anomaly_reason": null,
+    "path": "backend/sample_data\\clean_passport.png"
+  },
+  {
+    "filename": "clean_invoice.png",
+    "document_type": "invoice",
+    "is_authentic": true,
+    "attack_type": null,
+    "anomaly_reason": null,
+    "path": "backend/sample_data\\clean_invoice.png"
+  },
+  {
+    "filename": "clean_paystub.png",
+    "document_type": "paystub",
+    "is_authentic": true,
+    "attack_type": null,
+    "anomaly_reason": null,
+    "path": "backend/sample_data\\clean_paystub.png"
+  },
+  {
+    "filename": "forged_id_copymove.png",
+    "document_type": "id_card",
+    "is_authentic": false,
+    "attack_type": "copy_move",
+    "anomaly_reason": "Cloned patch detected overlapping region [540, 165, 740, 207] with identical pixel statistics to source region.",
+    "path": "backend/sample_data\\forged_id_copymove.png"
+  },
+  {
+    "filename": "forged_passport_spliced.png",
+    "document_type": "passport",
+    "is_authentic": false,
+    "attack_type": "splicing",
+    "anomaly_reason": "Spliced foreign element (photo_swap) detected at region [40, 80, 220, 320] with edge boundary discrepancy.",
+    "path": "backend/sample_data\\forged_passport_spliced.png"
+  },
+  {
+    "filename": "forged_invoice_fonttamper.png",
+    "document_type": "invoice",
+    "is_authentic": false,
+    "attack_type": "font_tamper",
+    "anomaly_reason": "Font mismatch & typographic variance detected on field 'vendor_name' (stroke width, kerning, and typeface inconsistency).",
+    "path": "backend/sample_data\\forged_invoice_fonttamper.png"
+  },
+  {
+    "filename": "forged_paystub_recompressed.png",
+    "document_type": "paystub",
+    "is_authentic": false,
+    "attack_type": "recompression",
+    "anomaly_reason": "Localized JPEG recompression artifact detected at [45, 120, 360, 160] (Error Level Analysis variance: high DCT grid mismatch).",
+    "path": "backend/sample_data\\forged_paystub_recompressed.png"
+  },
+  {
+    "filename": "forged_id_geometric.png",
+    "document_type": "id_card",
+    "is_authentic": false,
+    "attack_type": "geometric_tamper",
+    "anomaly_reason": "Geometric alignment anomaly: Localized perspective angle deviation (2.5\u00b0) detected at region [240, 245, 480, 287].",
+    "path": "backend/sample_data\\forged_id_geometric.png"
+  },
+  {
+    "filename": "forged_invoice_metadata.png",
+    "document_type": "invoice",
+    "is_authentic": false,
+    "attack_type": "metadata_tamper",
+    "anomaly_reason": "Disallowed editing software signature identified in metadata: 'GIMP 2.10.34' with timestamp inconsistency.",
+    "path": "backend/sample_data\\forged_invoice_metadata.png"
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "document_type": "id_card",
+  "width": 750,
+  "height": 480,
+  "country": "JORDAN",
+  "fields": {
+    "full_name": {
+      "label": "SURNAME / GIVEN NAMES",
+      "value": "GARCIA, Timothy",
+      "bbox": [
+        240,
+        95,
+        690,
+        137
+      ],
+      "norm_bbox": [
+        0.32,
+        0.1979,
+        0.92,
+        0.2854
+      ]
+    },
+    "id_number": {
+      "label": "NATIONAL ID NO.",
+      "value": "841-200-9785",
+      "bbox": [
+        240,
+        145,
+        480,
+        187
+      ],
+      "norm_bbox": [
+        0.32,
+        0.3021,
+        0.64,
+        0.3896
+      ]
+    },
+    "dob": {
+      "label": "DATE OF BIRTH",
+      "value": "26 JUN 1989",
+      "bbox": [
+        500,
+        145,
+        700,
+        187
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.3021,
+        0.9333,
+        0.3896
+      ]
+    },
+    "gender": {
+      "label": "SEX",
+      "value": "F",
+      "bbox": [
+        240,
+        195,
+        330,
+        237
+      ],
+      "norm_bbox": [
+        0.32,
+        0.4062,
+        0.44,
+        0.4938
+      ]
+    },
+    "nationality": {
+      "label": "NATIONALITY",
+      "value": "JOR",
+      "bbox": [
+        350,
+        195,
+        480,
+        237
+      ],
+      "norm_bbox": [
+        0.4667,
+        0.4062,
+        0.64,
+        0.4938
+      ]
+    },
+    "issue_date": {
+      "label": "DATE OF ISSUE",
+      "value": "28 AUG 2022",
+      "bbox": [
+        500,
+        195,
+        700,
+        237
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.4062,
+        0.9333,
+        0.4938
+      ]
+    },
+    "expiry_date": {
+      "label": "DATE OF EXPIRY",
+      "value": "20 SEP 2035",
+      "bbox": [
+        240,
+        245,
+        480,
+        287
+      ],
+      "norm_bbox": [
+        0.32,
+        0.5104,
+        0.64,
+        0.5979
+      ]
+    },
+    "mrz": {
+      "label": "MRZ CHECKSUM ZONE",
+      "value": "I<JORGARCIA<<Timothy<<<<<<<<<<<<<<<<\n8412009785<8JOR8501017F2812314<<<<<<",
+      "bbox": [
+        20,
+        360,
+        730,
+        460
+      ],
+      "norm_bbox": [
+        0.0267,
+        0.75,
+        0.9733,
+        0.9583
+      ]
+    }
+  },
+  "photo_box": [
+    40,
+    95,
+    210,
+    315
+  ],
+  "is_authentic": false,
+  "attack_type": "geometric_tamper",
+  "doc_id": "forged_id_geometric",
+  "severity": "medium",
+  "rotation_angle": 2.5,
+  "attack_region_bbox": [
+    240,
+    245,
+    480,
+    287
+  ],
+  "norm_attack_bbox": [
+    0.32,
+    0.5104,
+    0.64,
+    0.5979
+  ],
+  "anomaly_reason": "Geometric alignment anomaly: Localized perspective angle deviation (2.5\u00b0) detected at region [240, 245, 480, 287]."
+}

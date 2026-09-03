@@ -1,0 +1,159 @@
+{
+  "document_type": "id_card",
+  "width": 750,
+  "height": 480,
+  "country": "BANGLADESH",
+  "fields": {
+    "full_name": {
+      "label": "SURNAME / GIVEN NAMES",
+      "value": "FISHER, Jennifer",
+      "bbox": [
+        240,
+        95,
+        690,
+        137
+      ],
+      "norm_bbox": [
+        0.32,
+        0.1979,
+        0.92,
+        0.2854
+      ]
+    },
+    "id_number": {
+      "label": "NATIONAL ID NO.",
+      "value": "530-103-5633",
+      "bbox": [
+        240,
+        145,
+        480,
+        187
+      ],
+      "norm_bbox": [
+        0.32,
+        0.3021,
+        0.64,
+        0.3896
+      ]
+    },
+    "dob": {
+      "label": "DATE OF BIRTH",
+      "value": "30 NOV 1974",
+      "bbox": [
+        500,
+        145,
+        700,
+        187
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.3021,
+        0.9333,
+        0.3896
+      ]
+    },
+    "gender": {
+      "label": "SEX",
+      "value": "F",
+      "bbox": [
+        240,
+        195,
+        330,
+        237
+      ],
+      "norm_bbox": [
+        0.32,
+        0.4062,
+        0.44,
+        0.4938
+      ]
+    },
+    "nationality": {
+      "label": "NATIONALITY",
+      "value": "BAN",
+      "bbox": [
+        350,
+        195,
+        480,
+        237
+      ],
+      "norm_bbox": [
+        0.4667,
+        0.4062,
+        0.64,
+        0.4938
+      ]
+    },
+    "issue_date": {
+      "label": "DATE OF ISSUE",
+      "value": "12 JUN 2021",
+      "bbox": [
+        500,
+        195,
+        700,
+        237
+      ],
+      "norm_bbox": [
+        0.6667,
+        0.4062,
+        0.9333,
+        0.4938
+      ]
+    },
+    "expiry_date": {
+      "label": "DATE OF EXPIRY",
+      "value": "27 JAN 2035",
+      "bbox": [
+        240,
+        245,
+        480,
+        287
+      ],
+      "norm_bbox": [
+        0.32,
+        0.5104,
+        0.64,
+        0.5979
+      ]
+    },
+    "mrz": {
+      "label": "MRZ CHECKSUM ZONE",
+      "value": "I<BANFISHER<<Jennifer<<<<<<<<<<<<<<<\n5301035633<8BAN8501017F2812314<<<<<<",
+      "bbox": [
+        20,
+        360,
+        730,
+        460
+      ],
+      "norm_bbox": [
+        0.0267,
+        0.75,
+        0.9733,
+        0.9583
+      ]
+    }
+  },
+  "photo_box": [
+    40,
+    95,
+    210,
+    315
+  ],
+  "is_authentic": false,
+  "attack_type": "copy_move",
+  "doc_id": "forged_id_copymove",
+  "severity": "medium",
+  "attack_region_bbox": [
+    540,
+    165,
+    740,
+    207
+  ],
+  "norm_attack_bbox": [
+    0.72,
+    0.3438,
+    0.9867,
+    0.4313
+  ],
+  "anomaly_reason": "Cloned patch detected overlapping region [540, 165, 740, 207] with identical pixel statistics to source region."
+}

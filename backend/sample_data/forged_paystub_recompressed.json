@@ -1,0 +1,126 @@
+{
+  "document_type": "paystub",
+  "width": 800,
+  "height": 950,
+  "employer": "DALTON-BUCKLEY",
+  "employee": "Jason Atkins",
+  "gross_pay": 7600.0,
+  "total_deductions": 2101.4,
+  "net_pay": 5498.6,
+  "fields": {
+    "employer_name": {
+      "label": "EMPLOYER NAME",
+      "value": "DALTON-BUCKLEY",
+      "bbox": [
+        55,
+        42,
+        450,
+        70
+      ],
+      "norm_bbox": [
+        0.0688,
+        0.0442,
+        0.5625,
+        0.0737
+      ]
+    },
+    "employee_name": {
+      "label": "EMPLOYEE NAME",
+      "value": "Jason Atkins",
+      "bbox": [
+        55,
+        130,
+        350,
+        150
+      ],
+      "norm_bbox": [
+        0.0688,
+        0.1368,
+        0.4375,
+        0.1579
+      ]
+    },
+    "pay_date": {
+      "label": "PAY DATE",
+      "value": "09/02/2026",
+      "bbox": [
+        520,
+        45,
+        750,
+        65
+      ],
+      "norm_bbox": [
+        0.65,
+        0.0474,
+        0.9375,
+        0.0684
+      ]
+    },
+    "gross_pay": {
+      "label": "GROSS PAY",
+      "value": "$7,600.00",
+      "bbox": [
+        60,
+        400,
+        200,
+        425
+      ],
+      "norm_bbox": [
+        0.075,
+        0.4211,
+        0.25,
+        0.4474
+      ]
+    },
+    "total_deductions": {
+      "label": "TOTAL DEDUCTIONS",
+      "value": "$2,101.40",
+      "bbox": [
+        280,
+        400,
+        450,
+        425
+      ],
+      "norm_bbox": [
+        0.35,
+        0.4211,
+        0.5625,
+        0.4474
+      ]
+    },
+    "net_pay": {
+      "label": "NET PAY",
+      "value": "$5,498.60",
+      "bbox": [
+        540,
+        397,
+        750,
+        430
+      ],
+      "norm_bbox": [
+        0.675,
+        0.4179,
+        0.9375,
+        0.4526
+      ]
+    }
+  },
+  "is_authentic": false,
+  "attack_type": "recompression",
+  "doc_id": "forged_paystub_recompressed",
+  "patch_quality": 45,
+  "severity": "medium",
+  "attack_region_bbox": [
+    45,
+    120,
+    360,
+    160
+  ],
+  "norm_attack_bbox": [
+    0.0563,
+    0.1263,
+    0.45,
+    0.1684
+  ],
+  "anomaly_reason": "Localized JPEG recompression artifact detected at [45, 120, 360, 160] (Error Level Analysis variance: high DCT grid mismatch)."
+}
