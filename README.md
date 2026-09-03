@@ -1,6 +1,5 @@
 # DocShield AI — Document Fraud Detection & Forensics Platform
 
-[![CI Pipeline](https://github.com/docshield/docshield-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/docshield/docshield-ai/actions)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com)
 [![React 18](https://img.shields.io/badge/React-18.3-61DAFB.svg)](https://react.dev)
